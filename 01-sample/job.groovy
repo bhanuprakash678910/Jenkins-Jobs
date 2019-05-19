@@ -1,4 +1,4 @@
-node('SLAVE') {
+node('slave') {
     stage('SHELL'){
         sh 'hostname'
     }
